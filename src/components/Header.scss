@@ -1,0 +1,55 @@
+.header {
+  background-color: #000; // Match your theme
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: fixed; // Ensure the header is fixed at the top
+  top: 0; // Align to the top of the viewport
+  width: 100%; // Full width
+  z-index: 1000; // Keep it above other content
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column; // Center logo and text on mobile
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 100px; // Adjust the logo size
+  margin-bottom: 10px; // Space between the logo and text
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-container {
+    flex-direction: row; // Align logo and text side by side on wider screens
+    justify-content: flex-start; // Align to the left
+  }
+
+  h1,
+  p {
+    margin-left: 15px; // Space between logo and text on wider screens
+    text-align: left; // Left align text
+  }
+}
+
+// Add padding to sections to prevent overlap with the fixed header
+.about-section,
+.project-section,
+.contact-section {
+  padding-top: 100px; // Adjust based on your header height
+}
+
+

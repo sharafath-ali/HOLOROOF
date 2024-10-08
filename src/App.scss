@@ -1,0 +1,33 @@
+.about-section,
+// .project-section,
+.contact-section,
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-section {
+  background: #f0f0f0;
+}
+
+.project-section {
+  background: #e0e0e0;
+}
+
+.contact-section {
+  background: #d0d0d0;
+}
+
+footer {
+  background: #c0c0c0;
+  color: white;
+}
+
+.about-section,
+// .project-section,
+.contact-section {
+  padding-top: 100px; // Match this to the header height to avoid overlap
+}
