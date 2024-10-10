@@ -4,7 +4,7 @@ import './ContactForm.scss';
 
 const ContactForm = () => {
   return (
-    <section className="contact-form">
+    <section className="contact-form" style={{ backgroundColor: 'green', height: '100vh', width: '100vw' }}>
       <h2>Contact Us</h2>
       <form>
         <input type="text" name="name" placeholder="Your Name" required />

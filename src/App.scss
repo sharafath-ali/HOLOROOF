@@ -1,33 +1,36 @@
 .about-section,
-// .project-section,
-.contact-section,
-footer {
+.project-section,
+.contact-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-top: 100px;
+  height: 100%;
 }
 
 .about-section {
-  background: #f0f0f0;
+  background: #ffffff;
+  color: #000000;
 }
 
 .project-section {
-  background: #e0e0e0;
+  background: #ffffff;
+  color: #000000;
 }
 
 .contact-section {
-  background: #d0d0d0;
+  background: #ffffff;
+  color: #000000;
 }
 
 footer {
   background: #c0c0c0;
-  color: white;
+  color: #000000;
 }
 
-.about-section,
-// .project-section,
-.contact-section {
-  padding-top: 100px; // Match this to the header height to avoid overlap
+body {
+  margin: 0;
+  padding: 0;
 }

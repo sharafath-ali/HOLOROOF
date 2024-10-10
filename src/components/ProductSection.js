@@ -23,7 +23,7 @@ const ProductSection = () => {
   }, []);
 
   return (
-    <section className="product-section">
+    <section className="product-section" style={{ backgroundColor: 'green', height: '100vh', width: '100vw' }}>
       <h2>Our Products</h2>
       <div className="products" ref={productRef}>
         <div className="product">
