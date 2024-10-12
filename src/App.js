@@ -22,9 +22,9 @@ const App = () => {
             </section>
           </FullpageSection>
 
-          <FullpageSection style={{ backgroundColor: 'green', height: '100vh', width: '100vw' }}>
+          <FullpageSection style={{ backgroundColor: ' #f5f5f5', height: '100vh', width: '100vw' }}>
             <section className="project-section" style={{
-              backgroundColor: 'red', border: '1px  solid black'
+              backgroundColor: ' #f5f5f5', border: '1px  solid black'
             }}>
               <ProductSection />
               {/* Products or Project details */}
@@ -33,7 +33,7 @@ const App = () => {
 
           <FullpageSection style={{ backgroundColor: '#ffffff', height: '100vh', width: '100vw' }}>
             <section className="contact-section" style={{
-              backgroundColor: 'red', border: '1px  solid black'
+              backgroundColor: 'black', border: '1px  solid black'
             }}>
               <ContactForm />
             </section>
